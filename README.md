@@ -30,7 +30,7 @@ To reproduce the analysis, you need R installed on your system. The repository u
     ```
 2. Run the Quarto document (`sepsis_meta_analysis.qmd`) to reproduce the analysis:
     ```bash
-    quarto render sepsis_meta_analysis.qmd
+    quarto render sepsis_metaanalysis.qmd
     ```
     
 ### Data
