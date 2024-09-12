@@ -1,6 +1,6 @@
-# Does Immediate Antibiotic Administration Reduce Sepsis Mortality? A Meta-Analysis in R
+# Does Immediate Antibiotic Administration Reduce Sepsis Mortality? A Metaanalysis in R
 
-This repository contains the code and materials for a meta-analysis examining whether the timing of antibiotic administration affects mortality rates among sepsis patients. The analysis expands on the meta-analysis conducted by [Rothroc et al. (2020)](https://www.annemergmed.com/article/S0196-0644(20)30337-1/fulltext#tbl1fnddagger) by incorporating two additional studies published after the original review. The study uses random and fixed effects models to determine the impact of immediate (0-1 hour) versus early (1-3 hours) antibiotic administration on patient outcomes.
+This repository contains the code and materials for a metaanalysis examining whether the timing of antibiotic administration affects mortality rates among sepsis patients. The analysis expands on the metaanalysis conducted by [Rothroc et al. (2020)](https://www.annemergmed.com/article/S0196-0644(20)30337-1/fulltext#tbl1fnddagger) by incorporating two additional studies published after the original review. The study uses random and fixed effects models to determine the impact of immediate (0-1 hour) versus early (1-3 hours) antibiotic administration on patient outcomes.
 
 ## Key Features
 
@@ -11,7 +11,7 @@ This repository contains the code and materials for a meta-analysis examining wh
 
 ## Files
 
-- `sepsis_metaanalysis.qmd`: Quarto markdown document containing the full meta-analysis, including methods, data, and visualizations.
+- `sepsis_metaanalysis.qmd`: Quarto markdown document containing the full metaanalysis, including methods, data, and visualizations.
 - `images/sepsis_results_org.jpg`: Forest plot with results from original publication
 - `images/sepsis_mortality_alth.jpg`: Graph depicting mortatlity rates in groups (Althunayyan et al. (2022))
 - `data/sepsis_meta.csv`: The dataset used in the analysis, containing variables such as the number of subjects, events, and study characteristics.
