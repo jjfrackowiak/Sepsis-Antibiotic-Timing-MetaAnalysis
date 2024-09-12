@@ -54,7 +54,7 @@ The data used in this analysis contains the following key variables:
 
 - **Original Dataset**: Analysis of the original 13 studies showed no significant difference in mortality between immediate and early antibiotic administration.
 - **Extended Dataset**: Incorporating two additional studies confirmed the original findings under the random effects model. The common effects model showed a significant result with higher mortality for immediate administration.
-
+- **Variability in Effect Sizes among Studies** None of the tested varables proved significant in explaining effect size.
 
 This analysis was developed using the `renv` package to ensure reproducibility. All dependencies are captured in the `renv.lock` file. To replicate the analysis, `renv::restore()` is run to recreate the environment on your machine.
 
