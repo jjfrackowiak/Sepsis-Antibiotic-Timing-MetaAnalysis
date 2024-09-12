@@ -12,7 +12,6 @@ This repository contains the code and materials for a meta-analysis examining wh
 ## Files
 
 - `sepsis_metaanalysis.qmd`: Quarto markdown document containing the full meta-analysis, including methods, data, and visualizations.
-- `sepsis_metaanalysis.html`: HTML rendering of Quarto markdown document.
 - `images/sepsis_results_org.jpg`: Forest plot with results from original publication
 - `images/sepsis_mortality_alth.jpg`: Graph depicting mortatlity rates in groups (Althunayyan et al. (2022))
 - `data/sepsis_meta.csv`: The dataset used in the analysis, containing variables such as the number of subjects, events, and study characteristics.
@@ -56,12 +55,6 @@ The data used in this analysis contains the following key variables:
 - **Original Dataset**: Analysis of the original 13 studies showed no significant difference in mortality between immediate and early antibiotic administration.
 - **Extended Dataset**: Incorporating two additional studies confirmed the original findings under the random effects model. The common effects model showed a significant result with higher mortality for immediate administration.
 
-## Visualization
-
-- **Forest Plots**: Used to visualize the results of both the original and extended datasets.
-- **Funnel Plots**: Applied to assess potential publication bias in the extended dataset.
-
-## Reproducibility
 
 This analysis was developed using the `renv` package to ensure reproducibility. All dependencies are captured in the `renv.lock` file. To replicate the analysis, `renv::restore()` is run to recreate the environment on your machine.
 
