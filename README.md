@@ -2,8 +2,6 @@
 
 This repository contains the code and materials for a metaanalysis examining whether the timing of antibiotic administration affects mortality rates among sepsis patients. The analysis expands on the metaanalysis conducted by [Rothroc et al. (2020)](https://www.annemergmed.com/article/S0196-0644(20)30337-1/fulltext#tbl1fnddagger) by incorporating two additional studies published after the original review. The study uses random and fixed effects models to determine the impact of immediate (0-1 hour) versus early (1-3 hours) antibiotic administration on patient outcomes. Additionally, it explores whether various study-specific factors, such as patient demographics, hospital characteristics, and study design, influence effect sizes across different studies.
 
-![Sepsis Mortality and immediecy of antibiotic therapy as per Althunayyan et al. (2022)](images/sepsis_mortality_alth.jpg)
-
 ## Key Features
 
 - **Data Analysis**: Applies both random and fixed effect models to estimate the impact of antibiotic timing on sepsis mortality.
