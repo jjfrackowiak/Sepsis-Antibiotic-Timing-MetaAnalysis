@@ -13,8 +13,8 @@ This repository contains the code and materials for a meta-analysis examining wh
 
 - `sepsis_metaanalysis.qmd`: Quarto markdown document containing the full meta-analysis, including methods, data, and visualizations.
 - `sepsis_metaanalysis.html`: HTML rendering of Quarto markdown document.
-- 'images/sepsis_results_org.jpg': Forest plot with results from original publication
-- 'images/sepsis_mortality_alth.jpg': Graph depicting mortatlity rates in groups (Althunayyan et al. (2022))
+- `images/sepsis_results_org.jpg`: Forest plot with results from original publication
+- `images/sepsis_mortality_alth.jpg`: Graph depicting mortatlity rates in groups (Althunayyan et al. (2022))
 - `data/sepsis_meta.csv`: The dataset used in the analysis, containing variables such as the number of subjects, events, and study characteristics.
 - `renv.lock`: Lock file for managing the R environment via `renv`.
 - `README.md`: This file.
