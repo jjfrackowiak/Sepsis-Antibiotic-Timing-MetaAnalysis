@@ -4,7 +4,7 @@ This repository contains the code and materials for a metaanalysis examining whe
 
 ## Key Features
 
-- **Data Analysis**: Applies both random and fixed effect models to estimate the impact of antibiotic timing on sepsis mortality.
+- **Data Analysis**: Applies random and fixed effect models to estimate the impact of antibiotic timing on sepsis mortality. (Both on the original and extended sample of studies)
 - **Reproducibility**: Uses `renv` to manage the R environment, ensuring reproducibility of the analysis across systems.
 - **Visualization**: Includes forest plots to illustrate the results and funnel plots to assess potential publication bias.
 - **Extended Dataset**: Incorporates two additional studies ([Siewers et al. (2021)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8119622/) and [Althunayyan et al. (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9280501/)) to extend the original dataset.
