@@ -23,13 +23,13 @@ This repository contains the code and materials for a meta-analysis examining wh
 
 ### Prerequisites
 
-To reproduce the analysis, you need R installed on your system. The repository uses the `renv` package to manage dependencies. If `renv` is not installed, the script will install it.
+To reproduce the analysis, you need R and Quarto installed on your system. The repository uses the `renv` package to manage dependencies. If `renv` is not installed, the script will install it.
 
 ### Instructions
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/sepsis-antibiotic-timing-meta-analysis.git
+    git clone git@github.com:jjfrackowiak/Sepsis-Antibiotic-Timing-MetaAnalysis.git
     ```
 2. Run the Quarto document (`sepsis_meta_analysis.qmd`) to reproduce the analysis:
     ```bash
