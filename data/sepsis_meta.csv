@@ -1,0 +1,16 @@
+Author;Number_of_Hospitals;Design;ED_Setting;Median_Age;Percent_Male;Definition_of_Onset;Mortality_Defined;Median_Time_to_Antibiotics;Number_of_Subjects_01;Events_of_Subjects_01;Number_of_Subjects_13;Events_of_Subjects_13
+Puskarich et al. (2011);3.0;Prospective. randomized. nonblinded;1.0;62.0;53.6;ED triage;Hospital;114.0;65;11;158;35
+Ferrer et al. (2014);144.0;Retrospective cross sectional;0.0;;;ED triage time. IP/ICU. onset organ dysfunction;Hospital;;4728;1512;7615;2155
+Bloos et al. (2014);44.0;Prospective observational;0.0;69.0;62.7;Time of first organ dysfunction;28 days;126.0;186;65;249;86
+de Groot et al. (2015);3.0;Prospective observational;1.0;62.0;55.7;ED registration;28 days;;330;46;336;47
+Ryoo et al. (2015);1.0;Retrospective cohort;1.0;63.0;61.0;ED triage;28 days;91.5;150;29;199;40
+Drumheller et al. (2016);1.0;Retrospective cohort;1.0;59.5;56.7;ED triage;Hospital;120.0;90;16;180;46
+Whiles et al. (2017);1.0;Retrospective cohort;1.0;58.9;53.5;ED arrival;Hospital;177.0;450;55;1541;142
+Filbin et al. (2020);1.0;Retrospective cohort;1.0;;59.2;Onset hypoperfusion (systolic BP <90 mm Hg or lactate ≥4 mmol/L) at triage or in ED;Hospital;96.0;149;32;243;59
+Alam et al. (2018);34.0;Prospective Controlled Open Label;1.0;72.5;57.0;ED arrival;Hospital;70.0;281;31;230;16
+Leisman et al. (2019);9.0;Retrospective cohort;0.0;74.0;51.3;Time of infection+2 SIRS criteria met+organ dysfunction;Hospital;180.0;5399;1046;3641;699
+Hwang et al. (2019);1.0;Retrospective cohort;1.0;66.0;57.6;ED triage;28 days;132.0;178;20;1067;159
+Peltan et al. (2019);4.0;Retrospective cohort;1.0;60.9;48.1;ED arrival§;Hospital;166.0;599;139;5559;1082
+Castano et al. (2019);3.0;Prospective observational;1.0;63.0;53.1;ED triage;Hospital;;57;15;183;33
+Siewers et al.. (2022);1.0;;1.0;74.2;55.6;;;141.0;34;9;137;21
+Althunayyan et al. (2021);;;;;;;;;250;79;42;14
