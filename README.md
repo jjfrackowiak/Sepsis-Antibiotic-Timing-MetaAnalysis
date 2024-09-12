@@ -30,7 +30,7 @@ To reproduce the analysis, you need R and Quarto installed on your system. The r
     ```bash
     git clone git@github.com:jjfrackowiak/Sepsis-Antibiotic-Timing-MetaAnalysis.git
     ```
-2. Run the Quarto document (`sepsis_meta_analysis.qmd`) to reproduce the analysis:
+2. Run the Quarto document (`sepsis_metaanalysis.qmd`) to reproduce the analysis:
     ```bash
     quarto render sepsis_metaanalysis.qmd
     ```
