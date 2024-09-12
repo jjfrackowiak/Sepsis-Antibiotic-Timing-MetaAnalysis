@@ -1,2 +1,72 @@
-# Sepsis-Antibiotic-Timing-MetaAnalysis
-This repository presents project extending Rothroc et al. (2020) meta-analysis on antibiotic timing and sepsis mortality by incorporating two additional studies.
+# Does Immediate Antibiotic Administration Reduce Sepsis Mortality? A Meta-Analysis in R
+
+This repository contains the code and materials for a meta-analysis examining whether the timing of antibiotic administration affects mortality rates among sepsis patients. The analysis expands on the meta-analysis conducted by [Rothroc et al. (2020)](https://www.annemergmed.com/article/S0196-0644(20)30337-1/fulltext#tbl1fnddagger) by incorporating two additional studies published after the original review. The study uses random and fixed effects models to determine the impact of immediate (0-1 hour) versus early (1-3 hours) antibiotic administration on patient outcomes.
+
+## Key Features
+
+- **Data Analysis**: Applies both random and fixed effect models to estimate the impact of antibiotic timing on sepsis mortality.
+- **Reproducibility**: Uses `renv` to manage the R environment, ensuring reproducibility of the analysis across systems.
+- **Visualization**: Includes forest plots to illustrate the results and funnel plots to assess potential publication bias.
+- **Extended Dataset**: Incorporates two additional studies ([Siewers et al. (2021)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8119622/) and [Althunayyan et al. (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9280501/)) to extend the original dataset.
+
+## Files
+
+- `sepsis_meta_analysis.qmd`: Quarto markdown document containing the full meta-analysis, including methods, data, and visualizations.
+- `data/sepsis_meta.csv`: The dataset used in the analysis, containing variables such as the number of subjects, events, and study characteristics.
+- `renv.lock`: Lock file for managing the R environment via `renv`.
+- `README.md`: This file.
+
+## Getting Started
+
+### Prerequisites
+
+To reproduce the analysis, you need R installed on your system. The repository uses the `renv` package to manage dependencies. If `renv` is not installed, the script will install it.
+
+### Instructions
+
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/yourusername/sepsis-antibiotic-timing-meta-analysis.git
+    ```
+2. Run the Quarto document (`sepsis_meta_analysis.qmd`) to reproduce the analysis:
+    ```bash
+    quarto render sepsis_meta_analysis.qmd
+    ```
+    
+### Data
+
+The data used in this analysis contains the following key variables:
+
+- **Author**: Study authors.
+- **Number_of_Subjects_01**: Number of subjects receiving antibiotics within 0-1 hours.
+- **Events_of_Subjects_01**: Number of death events in the 0-1 hour group.
+- **Number_of_Subjects_13**: Number of subjects receiving antibiotics within 1-3 hours.
+- **Events_of_Subjects_13**: Number of death events in the 1-3 hour group.
+- **Number_of_Hospitals**: Number of hospitals involved in the study.
+- **Design**: Study design (retrospective, prospective, etc.).
+- **Median_Age**: Median age of patients in the study.
+- **Percent_Male**: Percentage of male patients.
+- **Median_Time_to_Antibiotics**: Median time from sepsis onset to antibiotic administration.
+
+### Results
+
+- **Original Dataset**: Analysis of the original 13 studies showed no significant difference in mortality between immediate and early antibiotic administration.
+- **Extended Dataset**: Incorporating two additional studies confirmed the original findings under the random effects model. The common effects model showed a significant result with higher mortality for immediate administration.
+
+## Visualization
+
+- **Forest Plots**: Used to visualize the results of both the original and extended datasets.
+- **Funnel Plots**: Applied to assess potential publication bias in the extended dataset.
+
+## Reproducibility
+
+This analysis was developed using the `renv` package to ensure reproducibility. All dependencies are captured in the `renv.lock` file. To replicate the analysis, `renv::restore()` is run to recreate the environment on your machine.
+
+## Acknowledgments
+
+This project was created as part of the Reproducible Research project for the **Data Science and Business Analytics programme** at the **Faculty of Economic Sciences, University of Warsaw** during the Summer Semester of 2024.
+
+## Contact
+
+Author: Jan Frąckowiak  
+Email: jj.frackowiak2@student.uw.edu.pl
